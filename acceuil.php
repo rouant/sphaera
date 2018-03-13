@@ -4,7 +4,12 @@
 	<head>
 	 <link rel="stylesheet" href="style.css" />
 		<title></title>
-		
+	<script>
+		function prevention(document.form1.contenu.value) {
+        document.form1.contenu.value = preg_replace("/[\'\")(;|`,<>]/", "", document.form1.contenu.value); 
+        return document.form1.contenu.value;
+      	}  
+	</script>
 
 	</head>
 	
@@ -21,7 +26,7 @@
 		
 	<form  action="minitchat2.php" method="post">
 		Message : <input type="text" name="contenu" /><br /> <br />
-		<input type="submit" value="valider"/>
+		<input type="submit" value="valider" onClick="prevention();"/>
 	</form>
 	<?php
 	
