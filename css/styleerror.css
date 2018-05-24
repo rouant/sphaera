@@ -1,0 +1,10 @@
+body {
+	background-image: url("../img/errorbackground.png");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+	color: black;
+	font-family: roboto;
+	text-align: center;
+	font-size: 34px;
+	}

@@ -1,0 +1,50 @@
+body {
+background-image: url("../img/backgroundindex.png");
+/*background-repeat:no-repeat center fixed;*/  
+/*margin- : 60%;*/
+background-size:cover;
+padding-top:0;
+margin-top:0;
+color : white;
+}
+
+INPUT{
+	border-radius: 4px;
+	border: grey;
+}
+
+.formulaire{
+background-color:rgba(0,0,0,0.3);
+width:700px;
+min-height: 100vh;
+}
+.flexbox {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.test{
+float:left;
+width:600px;
+}
+
+.inscription {
+	text-align: left;
+	padding-left : 12px;
+	font-size: 25px;
+	font-family: "roboto" ;
+}
+.inscription1 {
+	text-align: center;
+	font-size: 25px;
+	font-family: "roboto" ;
+	text-decoration: underline;
+}

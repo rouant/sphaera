@@ -1,0 +1,43 @@
+
+body{
+	 margin:0;
+  padding:0;
+  background: url("../img/backgroundconnexion.png"); no-repeat center fixed; 
+  -webkit-background-size: cover; 
+  background-size: cover; /* version standardisée */
+  font-size : 25px;
+  font-family: roboto;
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+#connexion{
+	border: 2px solid white;
+	background-color: rgba(225, 225, 225, 0.25);
+	margin-top: 8%;
+    margin-bottom: 10%;
+    margin-right: 65%;
+    margin-left: 10%;
+	min-width:500px;
+	min-height:200px;
+	border-radius: 4px;
+	color: white;
+}
+INPUT{
+	border-radius: 4px;
+	border: grey;
+}
+	
+#marge{
+
+    margin-bottom: 5%;
+	margin-top: 5%;
+    margin-left: 5%;
+	margin-right: 5%;
+}
+
+h1{
+	color:white;
+	text-align : center;
+}
